@@ -31,19 +31,19 @@ function App() {
           </p>
           <div className="project-links">
             <a href="https://marchmeshuguna.lovable.app/" className="link">View Live Dashboard ↗</a>
-            <a href="https://realai.lovable.app/" className="link">Read Algorithm Deep-Dive ↗</a>
+            <a href="#" className="link">Read Algorithm Deep-Dive ↗</a>
           </div>
         </div>
 
         <div className="project-card">
-          <h4>StreamAI</h4>
+          <h4>RealAI</h4>
           <p className="tech-stack">React | Firebase | Node.js</p>
           <p>
             A full-stack web application for sharing and interacting with AI-generated videos. 
             Engineered the backend architecture using Firebase for secure user authentication and seamless media storage.
           </p>
           <div className="project-links">
-            <a href="#" className="link">Visit StreamAI ↗</a>
+            <a href="https://realai.lovable.app/" className="link">Visit RealAI ↗</a>
           </div>
         </div>
       </section>
