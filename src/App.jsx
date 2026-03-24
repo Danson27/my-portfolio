@@ -10,7 +10,7 @@ function App() {
           I am a CS student at Bar Ilan University building full-stack applications and data-driven solutions.
         </p>
         <p>
-          You can email me at <a href="mailto:dan.sonnenblick@gmail.com">dan.sonnenblick@gmail.com</a>
+          Feel free to email me at <strong>dan.sonnenblick@gmail.com</strong>
         </p>
         <div className="hero-links">
         <a href="https://www.linkedin.com/in/dan-sonnenblick
