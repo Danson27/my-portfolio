@@ -2,21 +2,52 @@ import './App.css'
 
 function App() {
   return (
-    <main>
-      <header>
+    <div className="portfolio-container">
+      <header className="hero">
         <h1>Dan Sonnenblick</h1>
-        <h2>Computer Science Student & Software Engineer</h2>
-        <p>Welcome to my portfolio. I build full-stack applications and data-driven solutions.</p>
+        <h2>Computer Science Student</h2>
+        <p>
+          I am a CS student at Bar Ilan University building full-stack applications and data-driven solutions.
+        </p>
+        <div className="hero-links">
+          <a href="mailto:your.email@example.com" className="btn">Email Me</a>
+          <a href="https://github.com/Danson27" target="_blank" rel="noreferrer" className="btn btn-outline">GitHub</a>
+        </div>
       </header>
 
-      <section>
+      <section className="projects-section">
         <h3>Featured Projects</h3>
-        <ul>
-          <li><strong>StreamAI:</strong> An AI video-sharing platform with a Firebase backend.</li>
-          <li><strong>NCAA Predictor:</strong> Algorithmic bracket modeling and data analysis.</li>
-        </ul>
+        
+        <div className="project-card">
+          <h4>NCAA March Madness Predictor</h4>
+          <p className="tech-stack">Python | Pandas | React</p>
+          <p>
+            A data analysis and algorithmic modeling project designed to predict the NCAA March Madness tournament bracket. 
+            Aggregates historical team performance metrics to simulate matchups and optimize bracket selections.
+          </p>
+          <div className="project-links">
+            <a href="#" className="link">View Live Dashboard ↗</a>
+            <a href="#" className="link">Read Algorithm Deep-Dive ↗</a>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <h4>StreamAI</h4>
+          <p className="tech-stack">React | Firebase | Node.js</p>
+          <p>
+            A full-stack web application for sharing and interacting with AI-generated videos. 
+            Engineered the backend architecture using Firebase for secure user authentication and seamless media storage.
+          </p>
+          <div className="project-links">
+            <a href="#" className="link">Visit StreamAI ↗</a>
+          </div>
+        </div>
       </section>
-    </main>
+
+      <footer>
+        <p>© 2026 Dan Sonnenblick. Built with React & Vite.</p>
+      </footer>
+    </div>
   )
 }
 
