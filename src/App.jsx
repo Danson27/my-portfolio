@@ -10,8 +10,9 @@ function App() {
           I am a CS student at Bar Ilan University building full-stack applications and data-driven solutions.
         </p>
         <div className="hero-links">
-          <a href="mailto:dan.sonnenblick@gmail.com" className="btn">Email Me</a>
-          <a href="https://github.com/Danson27" target="_blank" rel="noreferrer" className="btn btn-outline">GitHub</a>
+        <a href="https://www.linkedin.com/in/dan-sonnenblick
+
+" target="_blank" rel="noreferrer" className="btn">LinkedIn</a>          <a href="https://github.com/Danson27" target="_blank" rel="noreferrer" className="btn btn-outline">GitHub</a>
         </div>
       </header>
 
