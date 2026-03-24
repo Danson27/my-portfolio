@@ -10,7 +10,7 @@ function App() {
           I am a CS student at Bar Ilan University building full-stack applications and data-driven solutions.
         </p>
         <p>
-          Feel free to email me at <strong>dan.sonnenblick@gmail.com</strong>
+          Feel free to email me at <a href="mailto:dan.sonnenblick@gmail.com" className="link"><strong>dan.sonnenblick@gmail.com</strong></a>       
         </p>
         <div className="hero-links">
         <a href="https://www.linkedin.com/in/dan-sonnenblick
@@ -18,7 +18,27 @@ function App() {
 " target="_blank" rel="noreferrer" className="btn">LinkedIn</a>          <a href="https://github.com/Danson27" target="_blank" rel="noreferrer" className="btn btn-outline">GitHub</a>
         </div>
       </header>
+      <section className="skills-section">
+        <div className="skills-group">
+          <h3>Languages</h3>
+          <div className="pill-container">
+            <span className="pill">C</span>
+            <span className="pill">Python</span>
+            <span className="pill">Java</span>
+          </div>
+        </div>
 
+        <div className="skills-group">
+          <h3>Technologies & Tools</h3>
+          <div className="pill-container">
+            <span className="pill">HTML</span>
+            <span className="pill">Jira</span>
+            <span className="pill">GitHub</span>
+            <span className="pill">React</span>
+            <span className="pill">Firebase</span>
+          </div>
+        </div>
+      </section>
       <section className="projects-section">
         <h3>Featured Projects</h3>
         
