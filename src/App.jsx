@@ -32,12 +32,13 @@ function App() {
           <div className="project-links">
             <a href="https://marchmeshuguna.lovable.app/" className="link">View Live Dashboard ↗</a>
             <a 
-              href="C:/Users/danso/OneDrive/Documents/MarchMadnessAlgo.pdf" 
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
-              Read Algorithm Deep-Dive ↗
-            </a>         
+            href="/march-madness-paper.pdf" 
+            className="link" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            Read Algorithm Deep-Dive ↗
+          </a>     
              </div>
         </div>
 
