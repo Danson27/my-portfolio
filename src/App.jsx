@@ -31,8 +31,14 @@ function App() {
           </p>
           <div className="project-links">
             <a href="https://marchmeshuguna.lovable.app/" className="link">View Live Dashboard ↗</a>
-            <a href="#" className="link">Read Algorithm Deep-Dive ↗</a>
-          </div>
+            <a 
+              href="C:/Users/danso/OneDrive/Documents/MarchMadnessAlgo.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              Read Algorithm Deep-Dive ↗
+            </a>         
+             </div>
         </div>
 
         <div className="project-card">
