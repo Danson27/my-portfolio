@@ -30,7 +30,7 @@ function App() {
             Aggregates historical team performance metrics to simulate matchups and optimize bracket selections.
           </p>
           <div className="project-links">
-            <a href="#" className="link">View Live Dashboard ↗</a>
+            <a href="https://marchmeshuguna.lovable.app/" className="link">View Live Dashboard ↗</a>
             <a href="#" className="link">Read Algorithm Deep-Dive ↗</a>
           </div>
         </div>
