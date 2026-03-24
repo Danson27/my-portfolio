@@ -31,7 +31,7 @@ function App() {
           </p>
           <div className="project-links">
             <a href="https://marchmeshuguna.lovable.app/" className="link">View Live Dashboard ↗</a>
-            <a href="#" className="link">Read Algorithm Deep-Dive ↗</a>
+            <a href="https://realai.lovable.app/" className="link">Read Algorithm Deep-Dive ↗</a>
           </div>
         </div>
 
