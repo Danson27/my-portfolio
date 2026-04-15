@@ -61,7 +61,18 @@ function App() {
           </a>     
              </div>
         </div>
-
+        <div className="project-card">
+          <h4>Omer Reminder (Omer++)</h4>
+          <p className="tech-stack">React Native | Node.js | Expo</p>
+          <p>
+            A ritual-tracking application that automates the daily counting of the Omer. 
+            Features location-based sunset calculations (Zmanim), push notifications, 
+            and progress tracking to ensure the 49-day count is completed with accuracy.
+          </p>
+          <div className="project-links">
+            <a href="https://github.com/Danson27/omer-reminder" className="link">View Source Code ↗</a>
+          </div>
+        </div>
         <div className="project-card">
           <h4>RealAI</h4>
           <p className="tech-stack">React | Firebase | Node.js</p>
