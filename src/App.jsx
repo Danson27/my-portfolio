@@ -1,8 +1,11 @@
 import './App.css'
+import { Analytics } from '@vercel/analytics/react'; 
 
 function App() {
   return (
     <div className="portfolio-container">
+      <Analytics mode="production" />
+
       <header className="hero">
         <h1>Dan Sonnenblick</h1>
         <h2>Computer Science Student</h2>
@@ -35,7 +38,6 @@ function App() {
             <span className="pill">Jira</span>
             <span className="pill">GitHub</span>
             <span className="pill">React</span>
-            <span className="pill">Firebase</span>
           </div>
         </div>
       </section>
